@@ -14,7 +14,7 @@ dim-ssl/
 │   ├── losses/
 │   │   ├── simclr.py           # NT-Xent contrastive loss
 │   │   ├── vicreg.py           # Variance-Invariance-Covariance loss
-│   │   └── dim_reg.py          # Von Neumann entropy regularizer (core contribution)
+│   │   └── dim_reg.py          # Von Neumann entropy regularizer
 │   ├── data/
 │   │   ├── augmentations.py    # SimCLR-style augmentations
 │   │   └── datasets.py         # CIFAR-100, STL-10, ImageNet-100 loaders
