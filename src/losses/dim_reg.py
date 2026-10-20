@@ -1,7 +1,6 @@
 """Dimensionality-preserving regularizer via Von Neumann entropy.
 
-This is the core contribution of the thesis. It encourages high intrinsic
-dimensionality of the embedding space by maximizing the Von Neumann entropy
+The regularizer encourages high intrinsic dimensionality of the embedding space by maximizing the Von Neumann entropy
 of the normalized embedding covariance matrix.
 
 Von Neumann entropy: H_VN = -sum_i (p_i * log(p_i))
